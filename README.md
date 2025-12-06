@@ -1,0 +1,2 @@
+# Zerodha
+A practice set
