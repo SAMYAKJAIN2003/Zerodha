@@ -1,0 +1,25 @@
+/* Smooth card shadow */
+.card-smooth {
+  @apply shadow-md hover:shadow-xl transition-all duration-300;
+}
+
+/* Input styling */
+.input-box {
+  @apply border rounded-xl p-2 w-20 bg-white shadow-sm
+         focus:ring focus:ring-gray-300 outline-none;
+}
+
+/* Sidebar links */
+.sidebar-link {
+  @apply cursor-pointer p-2 rounded-lg hover:bg-gray-200 transition;
+}
+
+/* Active tab */
+.tab-active {
+  @apply bg-gray-200 font-semibold;
+}
+
+/* Table row hover */
+.table-row-hover:hover {
+  @apply bg-gray-50;
+}
